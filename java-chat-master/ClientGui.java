@@ -302,7 +302,7 @@ public class ClientGui extends Thread{
           }
         }
         catch (IOException ex) {
-          System.err.println("Failed to parse incoming message");
+          System.err.println("Failed to parse incoming message, please try again.");
         }
       }
     }
